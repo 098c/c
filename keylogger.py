@@ -93,7 +93,7 @@ def on_release(key):
     if key == Key.esc:
         return False
 
-def stop_listener(listener, seconds=600):
+def stop_listener(listener, seconds=700):
     time.sleep(seconds)
     listener.stop()
 
