@@ -1,6 +1,6 @@
 ```
 cd
-cd Downloads\ahk-main
+cd Downloads\c
 py -m pip install pynput cryptography
 py keylogger.py
 
